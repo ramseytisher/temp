@@ -1,0 +1,19 @@
+type Project @model @auth(rules: [
+  {allow: owner, queries: null}
+]) {
+  id: ID!
+  description: String!
+  price: Float!
+  publishDate: AWSDate
+}
+
+type Account @model @auth(rules: [
+  {allow: owner, queries: null}
+]) {
+  id: ID!
+  first: String!
+  last: String!
+  email: String!
+  emailAllow: Boolean!
+  has: [String]
+}

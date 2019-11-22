@@ -1,0 +1,19 @@
+{
+    "develop": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-temp-develop-162928-authRole",
+            "UnauthRoleArn": "arn:aws:iam::208254545607:role/amplify-temp-develop-162928-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::208254545607:role/amplify-temp-develop-162928-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-temp-develop-162928-deployment",
+            "UnauthRoleName": "amplify-temp-develop-162928-unauthRole",
+            "StackName": "amplify-temp-develop-162928",
+            "StackId": "arn:aws:cloudformation:us-east-2:208254545607:stack/amplify-temp-develop-162928/ff984d90-0ca5-11ea-9763-02ae28e83a86"
+        },
+        "categories": {
+            "auth": {
+                "tempbacf0cd9": {}
+            }
+        }
+    }
+}

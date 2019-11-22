@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "temp",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authtempbacf0cd9",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
